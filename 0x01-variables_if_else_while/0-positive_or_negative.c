@@ -5,10 +5,10 @@
 /**
  * main - Program entry point
  *
- * Function prints \"programming is positive, zero, or negetive
+ * description prints \"programming is positive, zero, or negetive
  * returns zero otherwise
  * Return: 0
- */
+*/
 int main(void)
 {
 	int n;
