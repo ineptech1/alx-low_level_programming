@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - Program entry point
- * Return: 0 no error, non zero value if there is error
-**/
+ *
+ * Function prints \"programming is positive, zero, or negetive
+ * returns zero otherwise
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
@@ -13,11 +17,19 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		print("%d is positive\n", n);
+		printf("%d is greater than\n", n);
+		printf("%d is positive\n", n);
 	}
+
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+
 	else if (n < 0)
 	{
-		print("%d is zero\n", n);
+		printf("%d is less than\n", n);
+		printf("%d is zero\n", n);
 		return (0);
 	}
 }
