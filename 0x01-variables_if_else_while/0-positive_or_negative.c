@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - Program entry point
+ * main - Entry point
  *
- * description prints \"programming is positive, zero, or negetive
+ * Description: function prints \"programming is positive, zero, or negative
  * returns zero otherwise
  * Return: 0
 */
@@ -15,6 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 		printf("%d is greater than\n", n);
@@ -29,7 +30,7 @@ int main(void)
 	else if (n < 0)
 	{
 		printf("%d is less than\n", n);
-		printf("%d is zero\n", n);
+		printf("%d is negative\n", n);
 		return (0);
 	}
 }
