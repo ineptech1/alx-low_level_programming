@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * main -print _putchar
- *
- * prints and usage of created libraries
+ * main - print _putchar
  * is written by Emoigho Precious Egwofobe
  *
- * Return: 0 (success)
+ * Return: 0
 */
 
 int main(void)
