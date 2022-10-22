@@ -3,17 +3,15 @@
 /**
  * print_line - prints straight line n times
  *
- * @n: times straight line is printed
+ * @n: number of times '_' is printed
  * Return: void
  */
 
 void print_line(int n)
 {
-	int i;
-
-	for (i = 0; i < n; i++)
+	for (; n > 0; n--)
 	{
-		_putchar(85);
+		_putchar('_');
 	}
 	_putchar('\n')
 }
