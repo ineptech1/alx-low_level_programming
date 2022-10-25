@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 
 /**
  * main - generate random valid passwords
@@ -18,10 +19,10 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		pass[i] = rand() % 88;
+		pass[i] = rand() % 78;
 		sum += (pass[i] + '0');
 		putchar(pass[i] + '0');
-		if ((2772 - sum) - '0' < 88)
+		if ((2772 - sum) - '0' < 78)
 		{
 			n = 2772 - sum - '0';
 			sum += n;
