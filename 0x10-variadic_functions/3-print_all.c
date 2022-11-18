@@ -1,11 +1,11 @@
+/*
+* File: 3-print_all.c
+* Author: Emoigho Precious Egwofobe
+*/
+
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-
-/*
- * File: 3-print_all.c
- * Author: Emoigho Precious Egwofobe
- */
 
 void print_char(va_list arg);
 void print_int(va_list arg);
